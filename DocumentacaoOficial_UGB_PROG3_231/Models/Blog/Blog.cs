@@ -7,6 +7,6 @@ namespace DocumentacaoOficial_UGB_PROG3_231.Models.BLOG
         public int Id { get; set; }
         public string Nome { get; set; }
         public virtual Uri SiteUri { get; set; }
-        public ICollection<Post> Posts { get; }
+        public ICollection<Post> Posts { get;}
     }
 }
